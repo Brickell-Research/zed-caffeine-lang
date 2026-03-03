@@ -1,0 +1,4 @@
+target/
+node_modules/
+tree-sitter-caffeine/build/
+*.wasm

@@ -1,0 +1,15 @@
+id = "caffeine"
+name = "Caffeine"
+description = "Caffeine DSL support for reliability artifact definitions."
+version = "0.1.0"
+schema_version = 1
+authors = ["Rob <rob@brickellresearch.com>"]
+repository = "https://github.com/Brickell-Research/zed-caffeine-lang"
+
+[language_servers.caffeine]
+name = "Caffeine LSP"
+language = "Caffeine"
+
+[grammars.caffeine]
+repository = "https://github.com/Brickell-Research/zed-caffeine-lang"
+path = "tree-sitter-caffeine"
