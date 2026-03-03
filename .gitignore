@@ -1,4 +1,22 @@
-target/
-node_modules/
-tree-sitter-caffeine/build/
+# Rust / WASM build output
+/target
 *.wasm
+
+# Zed cloned grammars (created during extension build)
+grammars/
+
+# Tree-sitter native build artifacts (from `tree-sitter test`)
+tree-sitter-caffeine/build/
+
+# Node modules (tree-sitter-cli and dependencies)
+node_modules/
+
+# OS files
+.DS_Store
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

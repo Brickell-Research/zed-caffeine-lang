@@ -18,14 +18,14 @@
 ; Refinement variable
 (refined_type "x" @variable.special)
 
-; Type names
-(primitive_type) @type
+; Type names (builtins)
+(primitive_type) @type.builtin
 [
   "List"
   "Dict"
   "Optional"
   "Defaulted"
-] @type
+] @type.builtin
 
 ; Type alias references (in type position)
 (type_alias_ref (extendable_name) @type)
@@ -37,9 +37,6 @@
 ; Extendable definitions
 (extendable
   name: (extendable_name) @function.definition)
-
-; Extendable kind (Requires/Provides in parens)
-(extendable_kind) @keyword
 
 ; Extendable references in extends clauses
 (extends_clause (extendable_name) @function)
@@ -65,7 +62,6 @@
 
 ; Strings
 (string) @string
-(string_content) @string
 (escape_sequence) @string.escape
 (template_variable) @variable.special
 
@@ -98,5 +94,3 @@
   ","
   "*"
 ] @punctuation.delimiter
-
-"\"" @string

@@ -3,6 +3,8 @@
 module.exports = grammar({
   name: "caffeine",
 
+  word: ($) => $.identifier,
+
   extras: ($) => [/\s/, $.comment, $.section_comment],
 
   conflicts: ($) => [
