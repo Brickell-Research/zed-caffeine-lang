@@ -1,0 +1,45 @@
+src/caffeine.rs
+  d981fa9ba9f06774 1-121
+languages/caffeine/highlights.scm
+  d981fa9ba9f06774 1-102
+Cargo.toml
+  d981fa9ba9f06774 1-13
+languages/caffeine/brackets.scm
+  d981fa9ba9f06774 1-4
+.gitignore
+  d981fa9ba9f06774 1-4
+languages/caffeine/outline.scm
+  d981fa9ba9f06774 1-19
+extension.toml
+  d981fa9ba9f06774 1-15
+tree-sitter-caffeine/grammar.js
+  d981fa9ba9f06774 1-244
+LICENSE
+  d981fa9ba9f06774 1-190
+tree-sitter-caffeine/package.json
+  d981fa9ba9f06774 1-22,24
+languages/caffeine/config.toml
+  d981fa9ba9f06774 1-12
+languages/caffeine/indents.scm
+  d981fa9ba9f06774 1-8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.7",
+  "base_commit_sha": "08a5c31e4b4841c795ea373074a82a5002867012",
+  "prompts": {
+    "d981fa9ba9f06774": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c26ae5b4-5bd0-43e3-b018-529fc4780fe2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 763,
+      "total_deletions": 4,
+      "accepted_lines": 755,
+      "overriden_lines": 1
+    }
+  }
+}
